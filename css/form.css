@@ -1,0 +1,84 @@
+h5{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(233, 161, 29);
+}
+h3{
+    
+    text-align: center;
+    color:tomato;
+}
+h4{
+    text-align: center;
+    color: slateblue;
+    font-size: 20px;
+}
+.start{
+    font-size: 20px;
+    text-align: center;
+    color:black;
+    font-family: 'Lobster', cursive;
+    font-display:initial ;
+    
+}
+body{
+    background: url("../images/c1.jpg") center fixed;
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    width: 100%;  
+}
+#varieties{
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 25px;
+    text-align: center;
+    color:white;
+    margin-top: 20px;
+}
+#filling{
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 25px;
+    text-align: center;
+    color:white;
+    margin-top: 20px;
+}
+label{
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 25px;
+    text-align: center;
+    color:white;
+    margin-top: 23px;
+}
+#Shape{
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 25px;
+    text-align: center;
+    color:white;
+    margin-top: 23px;
+}
+#icing{
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 25px;
+    text-align: center;
+    color:white;
+    margin-top: 23px;
+}
+#flavor{
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 25px;
+    text-align: center;
+    color:white;
+    margin-top: 23px;
+}
+p{
+    font-size: 28px;
+    text-align: center;
+    color:rgb(20, 170, 85);
+    font-family: 'Lobster', cursive;
+    font-display:initial ;
+}
+#btn{
+    background-color: yellowgreen;
+    width: 100px;
+    margin-left: 650px;
+    
+}
