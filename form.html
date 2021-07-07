@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/form.css">
     <title>FORM FOR ME!!!</title>
 
-    <form action="">
+    <form action="https://formspree.io/f/xqkwlvqy" method="POST">
         <h5>CREAMY CREATIONS</h5>
         <div class="start">
 
@@ -15,25 +15,25 @@
                 <h4>ADD BOOKING DETAILS</h3>
             </a>
             <label for="NAME"></label>
-            NAME :<input type="text" required placeholder="Name"> <br><br>
+            NAME :<input type="text" required placeholder="Name" name="NAME"> <br><br>
             <label for="E-MAIL"></label>
-            E-mail :<input type="email" placeholder="E-mail" required><br><br>
+            E-mail :<input type="email" placeholder="E-mail" required name="E-mail"><br><br>
             <label for="Event Name"></label>
-            Event Name :<input type="text" placeholder="Event Name" required><br><br>
+            Event Name :<input type="text" placeholder="Event Name" required name="Event Name"><br><br>
             <label for="Event quotes"></label>
-            Event Quotes :<input type="text" placeholder="Event Quotes" required><br><br>
+            Event Quotes :<input type="text" placeholder="Event Quotes" required name=" Event Quotes"><br><br>
             <label for="Quantity"></label>
-            Quantity :<input type="number" placeholder="Quantity" required><br><br>
+            Quantity :<input type="number" placeholder="Quantity" required name=" Quantity"><br><br>
             <label for="address"></label>
-            Address :<input type="address" placeholder="Address" required><br><br>
-            Contact Number :<input type="TEXT" placeholder="Contact Number" required><br><br>
+            Address :<input type="address" placeholder="Address" required name=" Address"><br><br>
+            Contact Number :<input type="TEXT" placeholder="Contact Number" required name="Contact Number"><br><br>
             Payment :<input type="text" placeholder="Payment">
-            <select name="payment">
+            <select name="payment" name="payment">
                 <option>Online Payment</option>
                 <option>Cash On Delivery</option>
             </select><br><br>
 
-            Date Required :<input type="none" placeholder="mm-dd-yy">
+            Date Required :<input type="none" placeholder="mm-dd-yy" name="Date Required">
             <select name="date" required>
                 <label for="date"></label>
                 <option>1</option>
@@ -119,7 +119,7 @@
             </select><br><br>
         </div>
         <div id="varieties" class="varietiesbutton"></div>
-        <p><u>Choose a cake :</u> </p>
+        <p name="Choose a cake"><u>Choose a cake :</u> </p>
         <div id="varieties" class="varietiesbutton">
             <input type="radio" name="varieties" />
             <label>Black Forest</label>
@@ -157,7 +157,7 @@
             <label>Genoise Cake</label>
         </div>
         </div><br>
-        <p><u>Choose a filling :</u></p>
+        <p name="Choose a filling"><u>Choose a filling :</u></p>
         <div>
             <div id="filling" class="filling button">
                 <input type="radio" name="filling" />
@@ -180,7 +180,7 @@
                 <label>Other</label>
             </div>
         </div><br>
-        <p><u>Choose a Shape :</u></p>
+        <p name="Choose a Shape"><u>Choose a Shape :</u></p>
         <div id="Shape">
             <div id="Shape" class="Shape button">
                 <input type="radio" name="Shape" />
@@ -203,7 +203,7 @@
                 <label>Others</label>
             </div>
         </div><br>
-        <p><u>Choose a icing</u></p>
+        <p name="Choose a icing"><u>Choose a icing</u></p>
         <div>
             <div id="icing" class="icing button">
                 <input type="radio" name="icing" />
@@ -230,7 +230,7 @@
                 <label>Others</label>
             </div>
         </div><br>
-        <p><u>Choose a flavor :</u></p>
+        <p name="Choose a flavor"><u>Choose a flavor :</u></p>
         <div>
             <div id="flavor" class="flavor button">
                 <input type="radio" name="flavor" />
